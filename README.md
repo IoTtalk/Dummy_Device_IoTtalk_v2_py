@@ -18,7 +18,7 @@ pip install paho-mqtt requests
 ## Change IoTtalk Server IP
 ```
 $ vim ida.py
-line 4: host = 'IP'
+line 6: host = 'IP'
 ```
 
 ## Start
