@@ -1,0 +1,32 @@
+Dummy Device for  IoTtalk v2
+===============================================================================
+
+`Python Virtual Environment <https://docs.python.org/3/tutorial/venv.html>`_ (recommend)
+----------------------------------------------------------------------
+
+::
+
+    python3 -m venv /path/to/venv/dir       # create venv
+    source /path/to/venv/dir/bin/activate   # activate venv
+
+
+Install dependencies
+----------------------------------------------------------------------
+
+::
+
+    pip install iottalk-py==2.0.3
+
+
+Config IoTtalk Server URL
+----------------------------------------------------------------------
+
+Please set the variable ``api_url`` in ``ida.py``.
+
+
+Start
+----------------------------------------------------------------------
+
+::
+
+    python -m iottalkpy.dai ida
