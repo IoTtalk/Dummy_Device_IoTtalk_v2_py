@@ -38,7 +38,7 @@ interval = {
 }
 
 
-def register_callback():
+def on_register():
     print('register successfully')
 
 
