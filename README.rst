@@ -29,4 +29,5 @@ Start
 
 ::
 
-    python -m iottalkpy.dai sa
+
+    python -m iottalkpy.dai sa.py
