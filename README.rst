@@ -21,7 +21,7 @@ Install dependencies
 Config IoTtalk Server URL
 ----------------------------------------------------------------------
 
-Please set the variable ``api_url`` in ``ida.py``.
+Please set the variable ``api_url`` in ``sa.py``.
 
 
 Start
@@ -29,4 +29,5 @@ Start
 
 ::
 
-    python -m iottalkpy.dai ida.py
+
+    python -m iottalkpy.dai sa.py
