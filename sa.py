@@ -38,7 +38,7 @@ interval = {
 }
 
 
-def on_register():
+def on_register(dan):
     print('register successfully')
 
 
