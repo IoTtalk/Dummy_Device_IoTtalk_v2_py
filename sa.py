@@ -27,8 +27,8 @@ api_url = 'http://localhost:9992'  # default
 device_model = 'Dummy_Device'
 
 ### The input/output device features, please check IoTtalk document.
-idf_list = ['Dummy_Sensor']
-odf_list = ['Dummy_Control']
+idf_list = ['DummySensor-I']
+odf_list = ['DummyControl-O']
 
 ### Set the push interval, default = 1 (sec)
 ### Or you can set to 0, and control in your feature input function.
@@ -42,7 +42,7 @@ def on_register(dan):
     print('register successfully')
 
 
-def Dummy_Sensor():
+def DummySensor_I():
     return random.randint(0, 100)
 
     # Or you want to return nothing.
@@ -51,5 +51,5 @@ def Dummy_Sensor():
     # return NoData
 
 
-def Dummy_Control(data):  # data is a list
+def DummyControl_O(data: list):
     print(str(data[0]))
