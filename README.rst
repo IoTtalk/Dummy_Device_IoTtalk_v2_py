@@ -15,7 +15,7 @@ Install dependencies
 
 ::
 
-    pip install iottalk-py==2.2.1
+    pip install iottalk-py==2.3.1
 
 
 Config IoTtalk Server URL
